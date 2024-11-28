@@ -1,0 +1,101 @@
+body {
+    overflow-x: hidden;
+    background: linear-gradient(90deg, #f3fa29 0%, #088021 100%);
+}
+
+.carousel-item img {
+    filter: brightness(0.5);
+}
+
+.smallwindow {
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.content {
+    border: 1px 0 solid #cccccc;
+    font-size: small;
+}
+#tab-content {
+    margin-top: 1rem;
+}
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+#textarea {
+    padding: 1rem;
+    border: .5px solid #cccccc;
+}
+
+#user_name {
+    display: block;
+    
+}
+
+textarea {
+    width: 90%;
+    border: 2px solid #cccccc;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    margin-right: .75rem;
+    padding: 1rem;
+}
+
+#postbutton {
+    float: right;
+    border: 2px solid #cccccc;
+    border-radius: 2rem;
+    width: 5rem;
+    margin: 2rem auto;
+    font-weight: bold;
+    
+}
+
+.postbutton:hover {
+    background-color: #aaaaaa;
+}
+
+#post {
+    padding: 4px;
+    padding-right: 1rem;
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.user_profile {
+    margin-right: 1rem;
+    padding: .5rem;
+}
+
+#user_name {
+    margin-top: .5rem;
+    font-weight: bold;
+}
+
+.nav-item i {
+    align-items: flex-end;
+    margin-left: 2rem;
+}
+
+.nav-link:checked {
+    .tab-wall {
+        display: block;
+    }
+}
+
+
+
